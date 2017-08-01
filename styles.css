@@ -1,0 +1,28 @@
+body {
+  display: flex;
+  flex-flow: row wrap;
+  margin-left: 300px;
+  margin-right: 300px;
+  font-family: "Helvetica", "Arial", sans-serif;
+}
+
+div {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+  width: 250px;
+}
+div .personName {
+  display: flex;
+  flex-wrap: nowrap;
+  text-align: center;
+  text-transform: uppercase;
+  text-decoration: underline;
+  text-decoration-color: green;
+  width: 250px;
+}
+div .address {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+}
